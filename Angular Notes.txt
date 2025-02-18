@@ -1,1 +1,74 @@
- 
+ANGULAR NOTES
+============
+
+1. BASICS
+
+• Angular is a TypeScript-based open-source framework
+• Developed and maintained by Google
+• Used for building single-page applications (SPA)
+
+2. KEY COMPONENTS
+
+• Components - Basic building blocks of UI
+• Modules - Container for related components
+• Services - Business logic and data sharing
+• Directives - DOM manipulation
+• Pipes - Data transformation
+
+3. COMPONENT STRUCTURE
+
+@Component({
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.css']
+})
+
+4. IMPORTANT DECORATORS
+
+• @Component
+• @Injectable
+• @Input
+• @Output
+• @NgModule
+
+5. DATA BINDING
+
+• Interpolation: {{ value }}
+• Property Binding: [property]="value"
+• Event Binding: (event)="handler()"
+• Two-way Binding: [(ngModel)]="value"
+
+6. DIRECTIVES
+
+• *ngIf - Conditional rendering
+• *ngFor - Iteration
+• ngClass - Dynamic classes
+• ngStyle - Dynamic styles
+
+7. LIFECYCLE HOOKS
+
+• ngOnInit()
+• ngOnChanges()
+• ngOnDestroy()
+• ngAfterViewInit()
+
+8. ROUTING
+
+const routes: Routes = [
+    { path: '', component: HomeComponent },
+    { path: 'about', component: AboutComponent }
+]
+
+9. SERVICES & DEPENDENCY INJECTION
+
+@Injectable({
+    providedIn: 'root'
+})
+
+10. CLI COMMANDS
+
+• ng new [project-name]
+• ng serve
+• ng generate component
+• ng build
+• ng test
