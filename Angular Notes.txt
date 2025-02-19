@@ -6,6 +6,8 @@ ANGULAR NOTES
 • Angular is a TypeScript-based open-source framework
 • Developed and maintained by Google
 • Used for building single-page applications (SPA)
+• Follows MVC (Model-View-Controller) pattern
+• Built with TypeScript, offering strong typing and OOP features
 
 2. KEY COMPONENTS
 
@@ -14,10 +16,8 @@ ANGULAR NOTES
 • Services - Business logic and data sharing
 • Directives - DOM manipulation
 • Pipes - Data transformation
-
-3. COMPONENT STRUCTURE
-
-@Component({
+• Guards - Route protection
+• Interceptors - HTTP request/response handling
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.css']
