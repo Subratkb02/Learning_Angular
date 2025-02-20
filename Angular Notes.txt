@@ -72,3 +72,64 @@ const routes: Routes = [
 • ng generate component
 • ng build
 • ng test
+
+11. HTTP COMMUNICATION
+
+• HttpClient for API calls
+• GET, POST, PUT, DELETE methods
+• Observable handling
+• Error handling with interceptors
+
+12. FORMS
+
+• Template-driven forms
+• Reactive forms
+• Form validation
+• Form controls & groups
+
+13. STATE MANAGEMENT
+
+• Services for simple state
+• NgRx for complex applications
+• Store, Actions, Reducers
+• Effects for side effects
+
+14. TESTING
+
+• Unit testing with Jasmine
+• End-to-end with Protractor
+• TestBed configuration
+• Component testing
+• Service testing
+
+15. OPTIMIZATION
+
+• Lazy loading
+• AOT compilation
+• Production builds
+• Bundle optimization
+• Tree shaking
+
+16. SECURITY
+
+• Route Guards
+• Content Security Policy
+• XSS protection
+• CSRF protection
+• JWT implementation
+
+17. BEST PRACTICES
+
+• Component composition
+• Single responsibility
+• DRY principles
+• Modular architecture
+• Proper error handling
+
+18. DEPLOYMENT
+
+• Build optimization
+• Environment configuration
+• Server setup
+• CI/CD pipeline
+• Docker containerization
